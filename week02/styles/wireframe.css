@@ -1,7 +1,46 @@
-.section1 {
-    background-color: purple;
+body{
+    width: 100%;
+    padding: 0 10% 0 10%;
+    background-color: red;
+}
+
+.main-body{
+    background-color: white;
+    width:80%;
+    border-radius: 10px;
+}
+
+header img{
+    width: 15vw;
+    height: auto;
 }
 
 .section1 {
+    background-color: gold;
+}
+
+.section1 h2{
+    color: brown;
+}
+
+.section2 {
     background-color: white;
+}
+
+.section2 h2{
+    color: brown;
+}
+
+footer {
+    background-color: gold;
+    border-radius: 0 0 10px 10px;
+}
+
+footer h2{
+    color: brown;
+}
+
+.footer-div {
+   
+    width:33%;
 }
