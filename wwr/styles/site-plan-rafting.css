@@ -6,8 +6,8 @@
     --accent1-color: #E9F1F7;
     --accent2-color: #131B23;
 
-    --heading-font: 'open sans', serif;
-    --paragraph-font: 'open sans', serif;
+    --heading-font: 'Open Sans', serif;
+    --paragraph-font: 'Open Sans', serif;
 
     --nav-background-color: #816C61;
     --nav-link-color: #131B23;
@@ -53,6 +53,6 @@ nav a:link, nav a:visited {
 }
 
 nav a:hover{
-    color: var(--nav-hover-link-colo);
+    color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
