@@ -6,7 +6,7 @@
     --accent1-color: #E9F1F7;
     --accent2-color: #131B23;
 
-    --heading-font: 'Open Sans', serif;
+    --heading-font: 'Open Sans', Sans;
     --paragraph-font: 'Open Sans', serif;
 
     --nav-background-color: #816C61;
@@ -43,7 +43,7 @@ nav {
 
 nav a {
     display: block;
-    color: var (--nav-link-color);
+    color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
