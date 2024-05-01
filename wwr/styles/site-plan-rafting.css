@@ -8,13 +8,11 @@ body {
 
 :root{
     --primary-color: #2274A5;
-    --secundary-color: #E7DFC6;
+    --secondary-color: #E7DFC6;
     --accent1-color: #E9F1F7;
     --accent2-color: #131B23;
-
     --heading-font: 'Open Sans';
     --paragraph-font: 'Open Sans';
-
     --nav-background-color: #816C61;
     --nav-link-color: #131B23;
     --nav-hover-link-color: #2274A5;
