@@ -13,20 +13,20 @@ h1 {
     color: steelblue;
 }
 
-main img{
-    width: 150px;
-    height: auto;
-    border: 1px solid steelblue;
-    padding: 2px;
-    box-shadow: 0 0 30 px gray;
-}
-
 p {
     padding: 0px;
 }
 
 main {
     max-width: 840px;
+}
+
+main img{
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30 px gray;
 }
 
 aside {
