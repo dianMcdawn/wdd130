@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+:root{
+    --primary-color: #2274A5;
+    --secondary-color: #E7DFC6;
+    --thirdiary-color: #131B23;
+
+    --heading-font: 'Open Sans';
+    --paragraph-font: 'Open Sans';
+
+    --header-back-color: #816C61;
+
+    --nav-background-color: #816C61;
+    --nav-link-color: #131B23;
+    --nav-hover-link-color: #2274A5;
+    --nav-hover-background-color: #E7DFC6;
+}
+
+*{
+    font-family: 'Open Sans';
+}
+
+body {
+    padding: 0 15% 0 15%;
+}
+
+header{
+    padding: 2rem;
+    background-color: var(--header-back-color);
+}
+
+header a{
+    color: var(--nav-link-color);
+}
+
+
+h1,h2{
+    color: var(--primary-color);
+}
+
+p {
+    color: var(--primary-color);
+}
+
+footer nav a {
+    color: var(--nav-link-color);
+    text-decoration: none;
+}
+
+footer nav img {
+    width: auto;
+    height: 30px;
+}
+
+/* Classes */
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    opacity: .7;
+}
+
+.hero h1 {
+    position: absolute;
+    color: var(--secondary-color);
+    top: 60px;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0 1rem 0;
+    background-color: rgba(34, 116, 165, 0.8);
+}
+
+.hero article {
+    position: absolute;
+    color: var(--thirdiary-color);
+    background-color: rgba(129, 108, 97, 0.8);
+    top: 200px;
+    left: 5%;
+    width: 90%;
+}
+
+.hero article p {
+    padding: 10px;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.hero article img {
+    float: right;
+    height: 15rem;
+    width: auto;
+    opacity: 1.0;
+}
+
