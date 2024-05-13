@@ -132,6 +132,7 @@ footer nav img {
 }
 
 .history {
+    margin: 3rem 0 3rem 0;
     display: grid;
     grid-template-rows: 50px 1fr;
     grid-template-columns: 1fr 40% 1fr;
@@ -166,6 +167,7 @@ footer nav img {
 
 .adventure {
     display: grid;
+    margin: 3rem 0 3rem 0;
     grid-template-rows: 50px 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     justify-content: space-around;
@@ -185,5 +187,12 @@ footer nav img {
 }
 
 .adventure figure img{
-    width: 90%;
+    width: 100%;
+}
+
+.adventure figcaption {
+    grid-row: 2/2;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--secondary-color);
 }
