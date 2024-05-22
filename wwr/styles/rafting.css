@@ -231,6 +231,17 @@ footer nav img {
     color: var(--secondary-color);
 }
 
+/* Contact Information */
+.contact-information {
+    margin: 3rem 0 3rem 0;
+    padding: 0;
+}
+
+.contact-information p{
+    color: var(--thirdiary-color);
+    text-align: center;
+}
+
 /* Employees Class */
 
 .employees {
