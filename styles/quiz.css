@@ -107,7 +107,7 @@ footer {
 .q4-example {
     background: #000;
     color: #fff;
-    font-family: roboto, Arial, sans-serif;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
     margin: 1rem 3rem 1rem 3rem;
     font-size: .75rem;
 }
