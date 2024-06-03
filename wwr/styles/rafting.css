@@ -161,6 +161,19 @@ footer nav img {
     background-color: rgba(34, 116, 165, 0.8);
 }
 
+/* hero 3 */
+.hero3 {
+    width: 100%;
+    height: auto;
+}
+
+.hero3 p {
+    padding: 0 10px 0 10px;
+    color: var(--primary-color);
+    text-align:center;
+    font-size: 1.4rem;
+}
+
 /* History Class */
 
 .history {
@@ -431,4 +444,92 @@ form .columns2 p {
     color: #000;
     grid-column: 2/3;
     text-align: left;
+}
+
+/* Trips */
+.all-trips {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+
+.trips {
+    margin: 1rem 0 1rem 0;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    grid-template-columns: 40% 1fr;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+
+.trips h2 {
+    grid-row: 1/2;
+    grid-column: 1/3;
+    text-align: center;
+}
+
+.trips img {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    width: 70%;
+}
+
+.trips .history-one {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    text-align: left;
+}
+
+/* trips-table */
+
+.trips-table {
+    display: grid;
+    margin: 3rem 0 3rem 0;
+    grid-template-rows: 50px 1fr;
+    grid-template-columns: 25% 1fr;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+
+.trips-table h2 {
+    grid-row: 1/2;
+    grid-column: 1/3;
+    text-align: center;
+}
+
+.trips-table img {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    width: 70%;
+}
+
+.trips-table table {
+    margin: 0;
+    padding: 0;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    width: 100%;
+}
+
+.trips-table thead {
+    background: var(--header-back-color);
+}
+
+.trips-table thead, .trips-table tbody {
+    margin: 0;
+    padding: 0;
+}
+.trips-table tr {
+    width: 100%;
+    border: 1px solid #000;
+}
+.trips-table td, .trips-table th {
+    border: 1px solid #000;
+}
+.trips-table .trip-number {
+    text-align: center;
 }
